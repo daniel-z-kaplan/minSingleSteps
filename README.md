@@ -1,9 +1,21 @@
 # Minimal Implementation of Scalable Rectified Flow Transformers
 
+
 <p align="center">
   <img src="contents/51.gif" alt="large" width="300">
   <img src="contents/51_ln.gif" alt="large" width="300">
 </p>
+
+
+# TODO
+- [ ] Shortcut
+  - [ ] CFG
+- [ ] MeanFlow
+  - [ ] Pseudo huber
+  - [ ] CFG distillation
+  - [ ] Logit-normal (-4, 1.0)
+  - [ ] condition on t, t-r
+
 
 > Left is the naive RF, right is the logit-normal time-sampling RF. Both are trained on MNIST.
 
